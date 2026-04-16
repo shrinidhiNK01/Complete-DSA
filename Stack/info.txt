@@ -1,0 +1,11 @@
+Stack:- Lifo Mechanism(Last In First out)
+1)push()
+2)pop()
+3)top()
+4)size()
+
+Queue:-FIFO (First in First out)
+1)push()
+2)pop()
+3)top()
+4)size()

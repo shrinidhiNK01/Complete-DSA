@@ -1,0 +1,4 @@
+recursion:- a function calling itself till a base condition is met
+without base condition it leads to stack overflow ( if()return;)
+recursion is an algorithm for the stack datastructure
+Recursion tree=trace of (recursion + back tracking)

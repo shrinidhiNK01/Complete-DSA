@@ -1,0 +1,11 @@
+Queue:= FIFO
+Operations:- Enque(new element add), Deque(remove First one),Peek/front ,rear,isempty(),isfull()
+
+Implementation of Queue:- Array,LL,Circuler Queue (Array based)=>Front and rear are very near
+
+Special Queue:-
+==============
+1)Double Ended Queue : Insert from both the ends or Delete from both the ends
+2)Priority Queue :- Heap :- Keeping minimum or maximum value at the 1 end of the queue
+
+

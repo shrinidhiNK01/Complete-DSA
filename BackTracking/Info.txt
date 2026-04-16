@@ -1,0 +1,3 @@
+Combinations, Permutations, Subsets , Decision Making at each Step
+Must be Unique, Must repeat , Must not repeat, Follow specific Rules
+YES/no

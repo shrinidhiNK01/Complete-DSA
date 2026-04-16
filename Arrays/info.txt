@@ -1,0 +1,27 @@
+Arrays is a contiguous memory allocation in heap memory
+Random Access
+Relative index
+Cache friendly
+
+Pointers=4bytes, 
+
+accessing :- O(1)
+Insert=O(1)/O(n)
+Delete=O(1)/O(n)    
+Traversing=O(n)
+Search=O(n)
+Update:- O(1)
+
+adv:-
+===========
+1)Cache friendly
+2)Random accessing O(1)
+3)Easy of sorting
+4)Easy of searching
+5)Implement other ds(stack,queue)
+
+disadva:-
+=============
+fixed size
+worst case O(n)
+ineffecient for frequent modifications

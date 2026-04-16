@@ -1,0 +1,14 @@
+Graph is a network of nodes
+Types of Graph:-a)directional b)undirectional c)Weighted d)unWeighted e)Connected f)Disconnected
+Graph=(edges, weights)
+Graph is done using Doubly linked list
+0->[neighbour nodes]->list<int> |
+1->[neighbour nodes]->list<int> |---->vector<list<int>> ==> [neighbour of 0,neighbour of 1,neighbour of 2,neighbour of 3 ]
+2->[neighbour nodes]->list<int> |
+3->[neighbour nodes]->list<int> |
+
+total degree of a graph = 2*E
+n = nodes
+m = edges 
+
+Graph can be stored in a Matrix and List

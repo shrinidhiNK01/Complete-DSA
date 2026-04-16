@@ -1,0 +1,12 @@
+Linear DS:- Array,LinkedList,Stack,Queue
+No-Linear DS:-Trees,Grahs
+HashBased DS:-HashTable, HashSet 
+
+Advance DS:-
+====================
+1)Segmented Trees
+2)Fenwick Trees
+3)Disjointed Sets 
+4)Sparse Matrix 
+5)Spatial DS
+

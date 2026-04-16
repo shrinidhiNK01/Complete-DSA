@@ -1,0 +1,43 @@
+#include<bits/stdc++.h>
+using namespace std;
+class MyQueue {
+public:
+    deque<int> instack;
+    deque<int> outstack;
+    
+    MyQueue() {
+    }
+    
+    void push(int x) {
+        
+    }
+    
+    int pop() {
+        
+    }
+    
+    int peek() {
+        
+    }
+    
+    bool empty() {
+        
+    }
+};
+
+/**
+ * Your MyQueue object will be instantiated and called as such:
+ * MyQueue* obj = new MyQueue();
+ * obj->push(x);
+ * int param_2 = obj->pop();
+ * int param_3 = obj->peek();
+ * bool param_4 = obj->empty();
+ */
+
+int main(){
+    MyQueue* obj = new MyQueue();
+    obj->push(1);
+    obj->push(2);
+    cout<<obj->peek()<<endl;
+    cout<<obj->pop()<<endl;
+    cout<<obj->empty()<<endl;

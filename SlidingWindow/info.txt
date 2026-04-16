@@ -1,0 +1,4 @@
+Contigous segment
+subarray
+max/min, sum, count, frequency of elements, longest/shortest
+O(n)

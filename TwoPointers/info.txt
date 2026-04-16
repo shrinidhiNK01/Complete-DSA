@@ -1,0 +1,11 @@
+find pairs, |
+triplets    |-->meeting certain condition
+subarrays   |
+
+when data is sorted
+
+o(n)
+
+1 pointer starting and 1 pointer at ending
+both pointers at starting, One moving faster than other
+

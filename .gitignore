@@ -1,0 +1,6 @@
+# C++ executable files and outputs
+*.exe
+*.o
+*.out
+output/
+.vscode/
