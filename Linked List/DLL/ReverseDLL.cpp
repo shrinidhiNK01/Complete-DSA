@@ -1,35 +1,79 @@
-#include<bits/stdc++.h>
+#include <iostream>
 using namespace std;
-class Node{
-    public:
+
+// Node structure for the Doubly Linked List
+struct Node {
     int data;
     Node* next;
     Node* prev;
-    Node(int data,Node* next=NULL,Node* prev=NULL){
-        this->data=data;
-        this->prev=prev;
-        this->next=next;
-    }
-};
-Node* convertArr2DLL(vector<int> & arr){
-    Node* head=new Node(arr[0]);
-    Node* prev=head;
-    for(int i=1;i<arr.size();i++){
-        Node* temp=new Node(arr[i],NULL,prev);
-        prev->next=temp;
-        prev=temp;
-    }
-    return head;
-
-}
-int main(){
-    vector<int> arr={10,20,30};
-    Node* head=convertArr2DLL(arr);
-    while(head!=NULL){
-        cout<<head->data<<" ";
-        head=head->next;
-    }
-    cout<<endl;
     
+    Node(int val) : data(val), next(nullptr), prev(nullptr) {}
+};
 
+// Function to reverse the doubly linked list
+Node* reverseList(Node* head) {
+    if (head == nullptr || head->next == nullptr) {
+        return head; // List is empty or has only one node
+    }
+
+    Node* current = head;
+    Node* temp = nullptr;
+
+    // Traverse and swap next and prev pointers for every node
+    while (current != nullptr) {
+        // Swap pointers
+        temp = current->prev;
+        current->prev = current->next;
+        current->next = temp;
+
+        // Move to the next node (which is now current->prev due to the swap)
+        current = current->prev;
+    }
+
+    // After the loop, temp points to the node that was the original head's predecessor.
+    // The new head is the node that was the original tail.
+    if (temp != nullptr) {
+        head = temp->prev;
+    }
+
+    return head;
+}
+
+// Utility function to insert a node at the front
+void push(Node** head_ref, int new_data) {
+    Node* new_node = new Node(new_data);
+    new_node->next = (*head_ref);
+    if ((*head_ref) != nullptr) {
+        (*head_ref)->prev = new_node;
+    }
+    (*head_ref) = new_node;
+}
+
+// Utility function to print the list
+void printList(Node* node) {
+    while (node != nullptr) {
+        cout << node->data << " ";
+        node = node->next;
+    }
+    cout << endl;
+}
+
+int main() {
+    Node* head = nullptr;
+
+    // Create a list: 10 <-> 8 <-> 4 <-> 2
+    push(&head, 2);
+    push(&head, 4);
+    push(&head, 8);
+    push(&head, 10);
+
+    cout << "Original List: ";
+    printList(head);
+
+    head = reverseList(head);
+
+    cout << "Reversed List: ";
+    printList(head);
+
+    return 0;
 }
