@@ -1,3 +1,39 @@
 No contiguous location in heap
 Used in stack and Queue, and browser
 DLL used in Browser
+It is a Dynamic Data Structure, Grow and Shrink on its own
+Scalable data Structure, Used in Building Graph and Trees
+
+Types of Linked List:
+=====================
+1)Singly
+2)Doubly
+3)Circular
+
+Time Complexity:-
+================
+Insertion at Head:-O(1)
+Insertion at End:-O(n)
+Insertion at Middle:-O(n)
+
+Deletion at Head:-O(1)
+Deletion at End:-O(n)
+Deletion at Middle:-O(n)
+
+Searching:-O(n)
+Iteration:-O(n)
+
+To find Cycle in Singly Linked List:- 
+Floyd's Tortoise and Hare Algorithm
+
+To find Middle of Linked List:- 
+Floyd's Tortoise and Hare Algorithm
+
+To find Length of Linked List:- 
+Simple Iteration
+
+Reverse Linked List:- 
+1)Iterative
+2)Recursive
+
+To find Cycle in LL:- Fast and Slow Pointer and Middle Pointer
