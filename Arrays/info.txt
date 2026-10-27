@@ -3,6 +3,11 @@ Random Access
 Relative index
 Cache friendly
 
+maximum size of an array= 10^6 in locally
+maximum size of an array= 10^7 in globally
+
+starting address is not predictable
+
 Pointers=4bytes, 
 
 accessing :- O(1)

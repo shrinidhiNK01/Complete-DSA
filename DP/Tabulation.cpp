@@ -16,6 +16,10 @@ int func(vector<int>& dp, int n) {
     return dp[n];
 }
 
+// tc=0(n)
+//sc=o(n)
+
+
 // Space Optimized
 int SpaceOptimization(int n) {
     if (n == 0) return 0;

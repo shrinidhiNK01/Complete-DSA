@@ -13,5 +13,14 @@ public:
             }
         }
         return {};
+        
     }
 };
+
+
+int main(){
+    Solution s;
+    vector<int> nums = {1,2,3,1};
+    cout<<s.containsDuplicate(nums)<<endl;
+    return 0;
+}

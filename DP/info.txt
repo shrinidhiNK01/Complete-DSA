@@ -1,4 +1,16 @@
-1)Memoization=Top down => store values of overlapping subproblems in some map/table
-2)Tabulation=Bottom up
+1)Memoization=Top down => store values of overlapping subproblems in some map/table, tend to store value of sub problems in some map/table  ,TC:- O(N), SC:- O(N)+O(N)
+
+2)Tabulation = Bottom up
+
 3)Tabulation space optimization
+
+use Dp when distinct ways are required ,min max required, count the total no of ways ,try all the possible ways, best way 
+wherever we use recursion use Dp
+
+apply this to all problems:-
+===============================
+1)try to represent the problem in terms of index 
+2)do all possible stuffs on that index according to the problem statement 
+3)if question says count all ways = do sum of all stuffs , 
+  if question says find minimum = do minimum of all stuffs 
 

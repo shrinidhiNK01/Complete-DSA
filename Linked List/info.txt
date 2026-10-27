@@ -1,5 +1,6 @@
-No contiguous location in heap
+No contiguous location in heap memory
 Used in stack and Queue, and browser
+Flexible in Size
 DLL used in Browser
 It is a Dynamic Data Structure, Grow and Shrink on its own
 Scalable data Structure, Used in Building Graph and Trees
